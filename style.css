@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -83,6 +92,27 @@
     background-color: white;
     color: black;
 }
+
+.faq_section{
+  background-color: rgb(23, 23, 22);
+}
+.faq_section h2{
+  color: aqua;
+}
+
+.cards1 .resourses_section{
+  background: rgb(23, 23, 22);
+}
+.cards1 .resourses_section h2{
+  color: aqua;
+}
+.cards2{
+  background: rgb(23, 23, 22);
+}
+.cards2 .search_content ul li p{
+  color: white;
+}
+
 
 
 /* ==================footer================== */
@@ -172,7 +202,7 @@ footer{
     color: white;
     text-align: center;
     font-family: 'Michroma', sans-serif;
-    font-size: x-large;
+    font-size: small;
     word-spacing: 5px;
     padding-top: 25px;
   }
