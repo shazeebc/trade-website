@@ -6,7 +6,31 @@
 
 
 
+.cards01{
+  display: flex;
+}
+.cards01 .col-md-4{
+  width: 100%;
 
+}
+.cards01 .row{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+
+section .col-lg-4{
+  margin-top: 5%;
+}
+.section02{
+  display: flex;
+  margin-left: 10%;
+  
+}
+
+.section02 .col-md-1{
+  width: 100%;
+}
 *{
     margin: 0;
     padding: 0;
@@ -111,6 +135,13 @@
 }
 .cards2 .search_content ul li p{
   color: white;
+}
+
+
+.section03 a.resourses img{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
 
