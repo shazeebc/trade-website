@@ -6,31 +6,7 @@
 
 
 
-.cards01{
-  display: flex;
-}
-.cards01 .col-md-4{
-  width: 100%;
 
-}
-.cards01 .row{
-  margin-left: 0%;
-  margin-right: 0%;
-}
-
-
-section .col-lg-4{
-  margin-top: 5%;
-}
-.section02{
-  display: flex;
-  margin-left: 10%;
-  
-}
-
-.section02 .col-md-1{
-  width: 100%;
-}
 *{
     margin: 0;
     padding: 0;
@@ -124,6 +100,7 @@ section .col-lg-4{
   color: aqua;
 }
 
+
 .cards1 .resourses_section{
   background: rgb(23, 23, 22);
 }
@@ -137,6 +114,124 @@ section .col-lg-4{
   color: white;
 }
 
+/* ==============about============ */
+
+.aboutsec{
+  background:rgb(23, 23, 22) ;
+}
+.aboutsec h3{
+  color: aqua;
+}
+.aboutsec p{
+  color: white;
+  font-size: 20px;
+}
+
+.aboutsec .btn{
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+}
+.aboutsec a .btn{
+  font-size: 20px;
+}
+
+
+.aboutsec .btn:hover{
+  background-color: aqua;
+  color: black;
+}
+
+/* =============section01======== */
+
+.section01{
+  background:rgb(23, 23, 22) ;
+}
+
+.section01 h1{
+  color: aqua;
+}
+.section01 p{
+  color: white;
+}
+.section01 .cards01 h3{
+  color:black;
+}
+.section01 .cards01 p{
+  color: black;
+  font-size: 15px;
+}
+
+.section01 .cards01 .btn-primary{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.section01 .cards01 .btn-primary:hover{
+  background-color: aqua;
+  color: black;
+}
+
+.cards01{
+  display: flex;
+}
+
+.cards01 .col-md-4{
+  width: 100%;
+
+}
+
+.cards01 .row{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+
+section .col-lg-4{
+  margin-top: 5%;
+}
+
+/* ==========section02========= */
+
+.sec02back{
+  background:rgb(23, 23, 22) ;
+  padding-top: 10%;
+
+}
+
+.section02head{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.section02head h2{
+  color: aqua;
+}
+.section02{
+  display: flex;
+  margin: 0% 10% 0% 10%;
+
+  /* margin-left: 10%; */
+  /* margin-bottom: 10%; */
+  
+}
+
+.section02 .col-md-1{
+  width: 100%;
+
+}
+
+/* =============section03====== */
+
+.section03 {
+  /* margin-top: 10%; */
+  padding-top: 10%;
+  background:rgb(23, 23, 22) ;
+}
+.section03 p{
+  color: black;
+  text-decoration: none;
+}
 
 .section03 a.resourses img{
   margin-left: 0px;
@@ -144,17 +239,76 @@ section .col-lg-4{
   margin-top: 0px;
 }
 
+/* =============section04=========== */
+
+.section04{
+  background:rgb(23, 23, 22) ;
+  padding-bottom: 10%;
+}
+
+.section04 h2{
+  color: aqua;
+}
+
+.section04 p{
+  color: white;
+}
+.section04 i{
+  color: white;
+}
+.section04 span i{
+  color: white;
+}
+
+.section04 .small, small{
+  color: white;
+}
+.section04 .container{
+  padding-top: 10%;
+}
 
 
 /* ==================footer================== */
 
 footer{
-    height: 52vh;
+    /* height: 52vh;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/brick.jpg);
   }
+
+  .footersection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    margin-left: 5%;
+  }
   
+  .footersection h2{
+    margin-top: 5%;
+    color: aqua;
+  }
+  .footersection ul li{
+    
+    list-style: none;
+    color: white;
+    gap: 10%
+  }
+  .footersection ul li a{
+   padding-left: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    gap: 10%
+  }
+  .footersection .back_to_top {
+    padding-left: 15%;
+  }
+
+  .footersection .back_to_top p{
+    
+    color: white;
+  }
   
   .foot{
     width: 100%;
@@ -213,8 +367,8 @@ footer{
   }
   
   .social1{
-    width: 40%;
-    margin-left: 40%;
+    width: 100%;
+    text-align: center;
   }
   
   
@@ -236,6 +390,8 @@ footer{
     font-size: small;
     word-spacing: 5px;
     padding-top: 25px;
+    margin-left: 15%;
+    margin-bottom: 3%;
   }
   
   .udruname span{
