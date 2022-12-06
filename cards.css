@@ -1,0 +1,523 @@
+.card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: white;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+
+.card .imgBox {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    z-index: 1;
+    transform-style: preserve-3d;
+    transform-origin: right;
+    background-color: black;
+    transition: 1s;
+}
+
+.card:hover .imgBox {
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateX(50%);
+}
+
+#crd2 .imgBox {
+    transform-origin: left;
+}
+
+#crd2:hover .imgBox {
+    transform: rotateY(-180deg);
+}
+
+
+.card .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    object-fit: fill;
+    transform-style: preserve-3d;
+}
+
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .details .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .details .content h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.card .details .content h2 span {
+    color: #3f09c6;
+    font-size: 0.8em;
+}
+
+/* .card .details #manz .social-icons {
+    display: relative;
+    display: flex;
+    margin-top: 20px;
+} */
+
+
+.card .details .content .social-icons {
+    display: relative;
+    display: flex;
+    margin-top: 90px;
+}
+
+.card .details .content #fr {
+    margin-top: 30px;
+}
+
+
+
+.card .details .content .social-icons a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    /* background: black; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 25px;
+    transition: 0.1s;
+}
+
+.card .details .content .social-icons a:hover {
+    color: white;
+    background-color: #1c1852;
+    border: 2px solid #1c1852;
+    border-radius: 100%;
+}
+
+.horizontal {
+
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    /* margin-left: 15%;
+    width: 70%; */
+}
+#names{
+    font-family: 'Dosis', sans-serif;
+}
+
+success-asp h1 {
+    text-align: center;
+    margin: 5% 0 3% 0;
+    text-transform: uppercase;
+}
+
+.actionBtn {
+    display: flex;
+    gap: 20%;
+    margin-left: 15%;
+
+}
+
+.actionBtn .btn {
+    padding: 6px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #002B5B;
+    color: lavenderblush;
+    height: 35px;
+}
+
+.actionBtn .btn:hover {
+    background-color: #4C6793;
+    color: white;
+}
+
+.actionBtn .btn:nth-child(2) {
+    border: 1px solid #999;
+    color: #999;
+    background: lavenderblush;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- BELOW CONTENT IS BOOTSTRAP SLIDER BUTTONS COLOR  */
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: transparent;
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: none;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- RESPONSIVE CHANGES  */
+@media screen and (max-width:1200px) {
+
+    /* ADD==== */
+    .blog-card2 {
+        margin-right: 14%;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:1150px) {
+
+    /* ADD===== */
+    .blog-card2 {
+        margin-right: 12%;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:1100px) {
+
+    /* ADD===== */
+    .blog-card2 {
+        margin-right: 10%;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:1029px) {
+
+    /* ADD====== */
+    .blog-card2 {
+        margin-right: 9%;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:1019px) {
+
+    /* ADD===== */
+    .blog-card2 {
+        margin-right: 8%;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:980px) {
+
+    /* ADD===== */
+    .blog-card2 {
+        margin-right: 7%;
+    }
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width: 894px) {
+
+    /* ADD===== */
+    .actionBtn {
+        display: flex;
+        gap: 20%;
+        margin-left: 7%;
+
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:784px) {
+
+    /* ADD====== */
+    .actionBtn {
+        display: flex;
+        gap: 20%;
+        margin-left: 2%;
+
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:750px) {
+
+    /* ADD===== */
+    .actionBtn {
+        display: flex;
+        gap: 10%;
+        margin-left: 0%;
+
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:651px) {
+
+    /* LINE : 1666 CHANGE======== */
+    .content .text2 {
+        padding-right: 15rem;
+    }
+
+
+    /* TO====== */
+    .content .text2 {
+        padding-right: 12rem;
+    }
+
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:610px) {
+
+    /* ADD===== */
+    .inner-partt .img {
+        height: 265px;
+        width: 240px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:584px) {
+
+    /* LINE:1720 CAHNGE======== */
+    .inner-partt .img {
+        height: 265px;
+        width: 240px;
+    }
+
+
+    /* TO==== */
+    .inner-partt .img {
+        height: 235px;
+        width: 210px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:550px) {
+
+    /* ADD===== */
+    .container2 a span {
+        font-size: 15px;
+        margin-left: 0%;
+    }
+
+    .actionBtn .btn {
+        width: 100%;
+        padding: 7px 13px 7px 13 px;
+
+
+    }
+
+    /* ------------------------------------- LINE : 1870 to 1894 CHANGE======== */
+    .inner-partt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .blog-card2 {
+
+        height: 450px;
+    }
+
+    .inner-partt .img {
+        height: 190px;
+        width: 180px;
+        margin-top: 6rem;
+        margin-left: -7rem;
+    }
+
+    .content {
+        margin-left: -15px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+
+    /* TO======= */
+    .inner-partt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 490px;
+
+    }
+
+
+    .blog-card2 {
+
+        height: 590px;
+    }
+
+    .inner-partt .img {
+        height: 270px;
+        width: 240px;
+        margin-top: 6rem;
+        margin-left: -6rem;
+    }
+
+    .actionBtn {
+        margin-left: 15%;
+
+    }
+
+    .content {
+        margin-left: 15px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:500px) {
+
+    /* ADD===== */
+    .inner-partt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 490px;
+
+    }
+
+
+    /* LINE :  */
+    /* 2030 to 2043 CHANGE========= */
+    .blog-card2 {
+        height: 480px;
+    }
+
+    .inner-partt .img {
+        height: 200px;
+        width: 210px;
+        margin-left: -9rem;
+    }
+
+
+    .img img {
+        height: 119%;
+    }
+
+
+
+    /* TO==== */
+    .blog-card2 {
+
+        height: 590px;
+        text-align: center;
+    }
+
+    .inner-partt .img {
+        height: 270px;
+        width: 240px;
+        margin-top: 6rem;
+        margin-left: -7rem;
+    }
+
+    .actionBtn {
+        margin-left: 10%;
+    }
+
+    .content {
+        margin-left: 15px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:460px) {
+    .inner-partt .img {
+        height: 170px;
+        width: 185px;
+        margin-left: -10rem;
+    }
+
+
+    /* ADD===== */
+    .inner-partt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 490px;
+
+    }
+
+
+    .blog-card2 {
+
+        height: 590px;
+    }
+
+    .inner-partt .img {
+        height: 270px;
+        width: 240px;
+        margin-top: 6rem;
+        margin-left: -10rem;
+    }
+
+    .actionBtn {
+        margin-left: 12%;
+    }
+
+    .content {
+        margin-left: 0px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------  */
+
+
+@media screen and (max-width:387px) {
+
+
+    /* ADD  */
+    /* =====  */
+
+    .actionBtn {
+        margin-left: 8%;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------  */
+@media screen and (max-width:360px) {
+
+    /* ADD===== */
+    .actionBtn {
+        margin-left: 5%;
+    }
+}

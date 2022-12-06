@@ -4,9 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -71,9 +68,10 @@
 }
 
 #btn:hover {
-  background: #B1AFFF;
+  background: #00005C;
   cursor: pointer;
   color: #fff;
+  outline: none;
 }
 
 #f_list {
@@ -137,7 +135,7 @@
 }
 
 .faq_section h2 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 
@@ -146,7 +144,7 @@
 }
 
 .cards1 .resourses_section h2 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .cards2 {
@@ -164,7 +162,7 @@
 }
 
 .aboutsec h3 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .aboutsec p {
@@ -184,7 +182,7 @@
 
 
 .aboutsec .btn:hover {
-  background-color: aqua;
+  background-color: #B1AFFF;
   color: black;
 }
 
@@ -195,7 +193,7 @@
 }
 
 .section01 h1 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .section01 p {
@@ -218,7 +216,7 @@
 }
 
 .section01 .cards01 .btn-primary:hover {
-  background-color: aqua;
+  background-color: #B1AFFF;
   color: black;
 }
 
@@ -256,7 +254,7 @@ section .col-lg-4 {
 }
 
 .section02head h2 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .section02 {
@@ -296,11 +294,11 @@ section .col-lg-4 {
 
 .section04 {
   background: rgb(23, 23, 22);
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .section04 h2 {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .section04 p {
@@ -343,7 +341,7 @@ footer {
 
 .footersection h2 {
   margin-top: 5%;
-  color: aqua;
+  color: #B1AFFF;
 }
 
 .footersection ul li {
@@ -414,7 +412,7 @@ footer {
 
 .footpara {
   font-family: 'Michroma', sans-serif;
-  color: aqua;
+  color: #B1AFFF;
   font-size: small;
   letter-spacing: 2px;
   text-align: center;
@@ -434,7 +432,7 @@ footer {
 
 .addnum i {
   font-size: 22px;
-  color: aqua;
+  color: #B1AFFF;
   padding-bottom: 20px;
 }
 
@@ -458,7 +456,7 @@ footer {
 }
 
 .social1 a i:hover {
-  color: aqua;
+  color: #B1AFFF;
 }
 
 
@@ -631,6 +629,7 @@ a:hover {
 
 .header .navbar-inverse .navbar-nav {
   padding-top: 19px;
+  gap: 2rem;
 }
 
 .header .navbar-inverse .navbar-nav>li {
@@ -650,6 +649,7 @@ a:hover {
   line-height: 13px;
   text-transform: uppercase;
   padding: 15px 8px;
+  cursor: pointer;
 }
 
 .header .navbar-inverse .navbar-nav>li>a.active {
@@ -2437,9 +2437,9 @@ a.resourses>p>img {
   -moz-box-shadow: inset 0px 0px 0px 0px #bbdaf7;
   -webkit-box-shadow: inset 0px 0px 0px 0px #bbdaf7;
   box-shadow: inset 0px 0px 0px 0px #bbdaf7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
-  background: -moz-linear-gradient(center top, #79bbff 5%, #378de5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #B1AFFF));
+  background: -moz-linear-gradient(center top, #79bbff 5%, #B1AFFF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#B1AFFF');
   background-color: #79bbff;
   -webkit-border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
@@ -2469,12 +2469,100 @@ a.resourses>p>img {
 }
 
 .social:hover {
-  background: -moz-linear-gradient(center top, #378de5 5%, #79bbff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
-  background-color: #378de5;
+  background: -moz-linear-gradient(center top, #B1AFFF 5%, #79bbff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B1AFFF', endColorstr='#79bbff');
+  background-color: #B1AFFF;
 }
 
 .social:active {
   position: relative;
   top: 1px;
+}
+
+/* contact */
+
+
+.loginbg {
+  margin-left: 35%;
+  margin-top: 4rem;
+  height: 70vh;
+  width: 30%;
+  background-color: rgb(50, 51, 51);
+  padding: 1%;
+  color: #fff;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  letter-spacing: 0.2rem;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 2% 1%;
+  font-size: medium;
+  color: white;
+}
+
+::placeholder {
+  color: #B1AFFF;
+  letter-spacing: 0.2rem;
+}
+
+#btnn {
+  display: flex;
+  height: 20vh;
+  align-items: flex-end;
+  width: 100%;
+}
+
+#btnn .log {
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 9px;
+  background-color: #0983da;
+  cursor: pointer;
+}
+
+#btnn .log a {
+  text-decoration: none;
+  color: #fff;
+  font-size: medium;
+  font-weight: 600;
+}
+
+#btnn .log:hover {
+  background-color: #000;
+}
+
+.inputs {
+  padding-top: 20px;
+}
+
+.category {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.8rem
+}
+
+select {
+  font-size: medium;
+  outline: none;
+  width: 35%;
+  height: 40px;
+  text-align: center;
+  background: transparent;
+  color: #B1AFFF;
+  cursor: pointer;
+}
+
+option {
+  background-color: rgb(50, 51, 51);
+  color: #B1AFFF;
 }
