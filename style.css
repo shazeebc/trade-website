@@ -34,45 +34,12 @@
   background: black;
 }
 
-.home {
-  background-image: url(/images/Responsive\ background.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-}
+
 
 .header a.navbar-brand #img {
   width: 65px;
 }
 
-.logo {
-  text-align: center;
-  padding-top: 7%;
-}
-
-.logo img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 4px solid #B1AFFF;
-  padding: 5px;
-}
-
-.name h1 {
-  font-family: 'Saira Condensed', sans-serif;
-  text-align: center;
-  padding-top: 6%;
-  color: whitesmoke;
-  font-size: 36px;
-  letter-spacing: 30px;
-}
-
-#btn:hover {
-  background: #00005C;
-  cursor: pointer;
-  color: #fff;
-  outline: none;
-}
 
 #f_list {
   color: #B2B2B2;
@@ -88,30 +55,7 @@
   color: #B1AFFF;
 }
 
-.dis {
-  font-family: 'Michroma', sans-serif;
-  color: #B1AFFF;
-  text-align: center;
-  font-size: 17px;
-  padding-top: 2%;
-  word-spacing: 10px;
-}
 
-.down i {
-  color: white;
-  text-align: center;
-  font-size: xx-large;
-}
-
-.down {
-  text-align: center;
-  padding-top: 5%;
-}
-
-.down i:hover {
-  color: rgb(105, 105, 105);
-  font-size: 40px;
-}
 
 
 .navbar1 .header .navbar-inverse .navbar-nav>li>a:hover {
@@ -399,49 +343,7 @@ footer {
   /* transform: translateY(-10vh); */
 }
 
-.MA h2 {
-  font-family: 'Michroma', sans-serif;
-  color: white;
-  font-size: 20px;
-  line-height: 8px;
-  letter-spacing: 8px;
-  text-align: center;
 
-}
-
-
-.footpara {
-  font-family: 'Michroma', sans-serif;
-  color: #B1AFFF;
-  font-size: small;
-  letter-spacing: 2px;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 4%;
-}
-
-.addnum {
-  width: 50%;
-}
-
-.addnum-social {
-  display: flex;
-  border-bottom: 1px solid rgb(65, 65, 65);
-  padding-bottom: 2%;
-}
-
-.addnum i {
-  font-size: 22px;
-  color: #B1AFFF;
-  padding-bottom: 20px;
-}
-
-.addnum {
-  font-size: 15px;
-  word-spacing: 4px;
-  color: whitesmoke;
-
-}
 
 .social1 {
   width: 100%;
@@ -460,22 +362,12 @@ footer {
 }
 
 
-.udruname {
+.copyrights{
   color: white;
   text-align: center;
-  font-family: 'Michroma', sans-serif;
-  font-size: small;
-  word-spacing: 5px;
-  padding-top: 25px;
-  margin-left: 15%;
-  margin-bottom: 3%;
 }
 
-.udruname span {
-  font-size: large;
-  font-family: 'Poppins', sans-serif;
-  color: grey;
-}
+
 
 
 /* ------------------------------------------------------- */
